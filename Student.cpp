@@ -2,11 +2,13 @@
 #include <iostream>
 
 // Assign studentId and name
-Student::assignDetails() {
-  
+void Student::assignDetails(int id, char sname[]) {
+  strcpy(name, sname);
 }
 
 // Display StudentId and Name
-Student::display() {
-  
+void Student::display() {
+  cout<<"----------------------"<<endl;
+  cout<<"The Student ID: "<<endl;
+  cout<<"The name of the student: "<<endl;
 }
