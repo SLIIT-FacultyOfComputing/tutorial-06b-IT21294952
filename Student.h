@@ -2,9 +2,9 @@ class Student {
  
 private:
   int studentId;
-  char[20] name;
+  char name[20];
 
 public:
-  void assignDetails()int id, char sname[];
+  void assignDetails(int id, char sname[]);
   void display();
 };
