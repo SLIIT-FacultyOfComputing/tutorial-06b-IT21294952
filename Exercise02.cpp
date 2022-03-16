@@ -5,16 +5,16 @@ using namespace std;
 int main() {
   
    // 1. Create a Box type object called box1
-  
+  Box box1;
   
    // ======= DO NOT CHANGE THE INPUT ===========
    int height, length, width;
    cout << "Enter the Height of the Box : ";
-   cin >> height;
+   cin >> box1.height;
    cout << "Enter the Length of the Box : ";
-   cin >> length;
+   cin >> box1.length;
    cout << "Enter the width of the Box : ";
-   cin >> width;
+   cin >> box1.width;
    // ===========================================
   
    // 2. Use setters assign height, length, width throw
